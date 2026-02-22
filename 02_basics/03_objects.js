@@ -46,3 +46,15 @@ console.log(obj3)
 console.log(Object.keys(tinderUser));//gives output in array
 console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+const {courseInstructor:instructor}=course
+// console.log(courseInstructor)
+console.log(instructor)
+
+
